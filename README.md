@@ -4,7 +4,9 @@ A vagrant script for setting up a Kubernetes cluster using Kubeadm
 ## Pre-requisites
 
  * **[Vagrant 2.1.4+](https://www.vagrantup.com)**
+(08th Mar 2019 - Tested on: Vagrant 2.2.4)
  * **[Virtualbox 5.2.18+](https://www.virtualbox.org)**
+ (08th Mar 2019 - Tested on: VirtualBox v6.0.4)
 
 ## How to Run
 
@@ -41,7 +43,7 @@ Execute the following command to remove the virtual machines created for the Kub
 vagrant destroy -f
 ```
 
-You can destroy individual machines by vagrant destroy k8s-node-1 -f
+You can destroy individual machines by `vagrant destroy k8s-node1 -f`
 
 ## Licensing
 
